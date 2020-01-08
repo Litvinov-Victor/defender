@@ -6,7 +6,7 @@ import time
 starttime=time.time()
 logging.basicConfig(filename="logs/main.log", level=logging.INFO)
 dataFileHost = 'https://dev.solvers.group/defender/hosts'
-dataFileNameHost = 'hosts'
+dataFileNameHost = 'C:\WINDOWS\system32\drivers\etc\hosts'
 
 
 def loadFile():
